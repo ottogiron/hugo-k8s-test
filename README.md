@@ -15,7 +15,7 @@ $ kubectl create -f k8s/ingress.yaml
 
 ## View results 
 
-The k8s ingress is configured to serve the service in port 80. At the same time, the hugo site is configured to use the "example.com" (configurable in the pod file) for navigation.
+The k8s ingress is configured to proxy to the service using port 80. At the same time, the hugo site is configured to use the "example.com" (configurable in the pod file) for navigation.
 
 Get the minikube ip and map it to example.com in your /etc/hosts file
 ```
