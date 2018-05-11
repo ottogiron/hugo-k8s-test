@@ -14,7 +14,7 @@ spec:
       mountPath: /git
     env:
     - name: GIT_SYNC_REPO
-      value: https://github.com/ottogiron/hugo-test.git
+      value: https://github.com/ottogiron/hugo-k8s-test.git
     - name: GIT_SYNC_DEST
       value: git-sync
   - name: hugo
